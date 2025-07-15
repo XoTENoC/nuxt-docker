@@ -30,6 +30,7 @@ npm run docker:dev:rebuild
 ```
 
 The development setup includes:
+
 - Hot-reload enabled
 - Volume mounting for live code changes
 - Port mapping: `6969:3000` (access at http://localhost:6969)
@@ -123,6 +124,7 @@ npm run preview
 ## 🚀 Deployment
 
 The production Docker image is optimized for deployment with:
+
 - Multi-stage build for smaller image size
 - Node.js 20.18.0 runtime
 - Production-ready server configuration

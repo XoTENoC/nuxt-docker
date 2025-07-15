@@ -1,4 +1,4 @@
-version: "3"
+version: '3'
 
 volumes:
   node_modules:
@@ -8,8 +8,8 @@ services:
       context: .
       dockerfile: ./Dockerfile.dev
     ports:
-      - "6969:3000"
-      - "24678:24678"
+      - '6969:3000'
+      - '24678:24678'
     volumes:
       - .:/src
       - node_modules:/src/node_modules
